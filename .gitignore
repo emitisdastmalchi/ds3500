@@ -3,3 +3,16 @@ report.txt
 data_quality.txt
 
 .env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
