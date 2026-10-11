@@ -16,3 +16,9 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+venv/
+
+# Ignore all text files except requirements.txt
+*.txt
+!requirements.txt
