@@ -7,7 +7,7 @@ def remove_duplicates(df):
     """Remove duplicate rows"""
     rows_before = len(df) 
     df = df.drop_duplicates()
-    logger.debug("remove duplicates: %d -> %d rows", rows_before, len(df))
+    logger.debug("remove_duplicates: %d -> %d rows", rows_before, len(df))
     return df
 
 def handle_missing(df, axis="rows"):

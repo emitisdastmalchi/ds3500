@@ -22,3 +22,6 @@ venv/
 # Ignore all text files except requirements.txt
 *.txt
 !requirements.txt
+
+output/
+
